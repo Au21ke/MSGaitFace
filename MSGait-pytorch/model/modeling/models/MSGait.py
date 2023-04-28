@@ -140,10 +140,6 @@ class GeMHPP(nn.Module):
 
 
 class MSGait(BaseModel):
-    """
-        GaitGL: Gait Recognition via Effective Global-Local Feature Representation and Local Temporal Aggregation
-        Arxiv : https://arxiv.org/pdf/2011.01461.pdf
-    """
 
     def __init__(self, *args, **kargs):
         super(MSGait, self).__init__(*args, **kargs)
