@@ -149,7 +149,6 @@ class MSGait(BaseModel):
         class_num = model_cfg['class_num']
         dropping_ratio = model_cfg['dropping_ratio']
 
-        # For CASIA-B or other unstated datasets.
         self.conv3d = nn.Sequential(
             BasicConv3d(1, in_c[0], kernel_size=(3, 3, 3),
                         stride=(1, 1, 1), padding=(1, 1, 1)),
